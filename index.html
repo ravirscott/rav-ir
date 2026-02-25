@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAVIR - Typing Defense</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <header class="hud">
+      <h1>RAVIR</h1>
+      <div class="hud-grid">
+        <p><span>Score</span><strong id="score">0</strong></p>
+        <p><span>Level</span><strong id="level">1</strong></p>
+        <p><span>Lives</span><strong id="lives">3</strong></p>
+        <p><span>Words Pool</span><strong id="wordPool">50000</strong></p>
+      </div>
+      <p id="status" class="status">Type the falling words before they hit the ground.</p>
+    </header>
+
+    <section id="gameArea" class="game-area" aria-label="RAVIR game arena"></section>
+
+    <footer class="controls">
+      <button id="startBtn">Start Game</button>
+      <button id="restartBtn" disabled>Restart</button>
+      <p>
+        Controls: type letters to lock onto a word. Keep typing to destroy it. <kbd>Backspace</kbd> removes one typed letter.
+      </p>
+    </footer>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
