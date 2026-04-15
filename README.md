@@ -40,6 +40,7 @@ A production-ready, Desmos-inspired web application for interactive mathematics,
 - 📱 **Responsive UI** optimized for desktop, tablet, and mobile.
 
 ## Tech Stack
+https://ravirscott.github.io/ravir-a-typing-game/
 
 - React + TypeScript + Vite
 - Tailwind CSS
