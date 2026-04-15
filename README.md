@@ -1,4 +1,4 @@
-< codex/create-ravir-typing-game-with-difficulty-levels
+
 # RAVIR - Typing Defense Game
 
 RAVIR is a browser typing game inspired by ZType.
